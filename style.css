@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 944px;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1{
+    margin: auto;
+    margin-top: 3%;
+    width: 40%;
+    background-color: #9BBF39;
+    padding: 10px;
+}
+.block2{
+    padding: 10px;
+    background-color: #F3BF0B;
+}
+.block3{
+    height: 784px;
+    background-color: #FEFBDD;
+}
+.block3 img{
+    width: 100%;
+    margin: 20% 0 0 0;
+}
+@media screen and (min-width: 2000px) {
+    body{
+        width: 100%;
+        height: 944px;
+        background-image: url(/img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contanair{
+        width: 1920px;
+        margin: auto;
+        margin-top: 10%;
+    }
+}
